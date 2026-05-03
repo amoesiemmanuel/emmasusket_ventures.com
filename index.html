@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emma Susket Ventures | Interior Designs & Accessories</title>
+  <link rel="icon" href="https://lens.usercontent.google.com/banana?agsi=CmdnbG9iYWw6OjAwMDA1NWNmZWM3MDAyNmQ6MDAwMDAwZWI6MTpjZGZhZWU3ZGIxYzAyOWY1OjAwMDA1NWNmZWM3MDAyNmQ6MDAwMDAyMzk3OGQwMzM2ODowMDA2NTBkZGFiNjc2NDhmEAIYAQ==" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <div class="brand-mark">ESV</div>
+      <div>
+        <h1>Emma Susket Ventures</h1>
+        <p>Interior Design & Accessories</p>
+      </div>
+    </div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#accessories">Accessories</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero-section">
+      <div class="hero-copy">
+        <p class="eyebrow">Curated spaces, elegant experiences</p>
+        <h2>Designing interiors and accessories that tell your story.</h2>
+        <p>From signature living rooms to bespoke décor, Emma Susket Ventures brings refined style and functional luxury into every project.</p>
+        <div class="hero-actions">
+          <button id="book-btn">Book a consultation</button>
+          <a href="#portfolio" class="ghost-link">See portfolio</a>
+        </div>
+      </div>
+      <div class="hero-card" id="overview-card">
+        <h3>What we offer</h3>
+        <ul id="overview-list"></ul>
+      </div>
+    </section>
+
+    <section id="services" class="section-block">
+      <div class="section-heading">
+        <span>Interior design made effortless</span>
+        <h2>Our services</h2>
+      </div>
+      <div class="cards-grid" id="services-grid"></div>
+    </section>
+
+    <section id="portfolio" class="section-block dark-block">
+      <div class="section-heading">
+        <span>Signature spaces</span>
+        <h2>Portfolio highlights</h2>
+      </div>
+      <div class="portfolio-grid" id="portfolio-grid"></div>
+    </section>
+
+    <section id="accessories" class="section-block">
+      <div class="section-heading">
+        <span>Style details</span>
+        <h2>Accessories collection</h2>
+      </div>
+      <div class="accessory-grid" id="accessory-grid"></div>
+    </section>
+
+    <section id="contact" class="section-block contact-block">
+      <div class="section-heading">
+        <span>Let's design together</span>
+        <h2>Contact Emma Susket Ventures</h2>
+      </div>
+      <div class="contact-layout">
+        <div class="contact-copy">
+          <p>Ready to elevate your home or commercial space? Reach out for a tailored design experience, interior styling, and curated accessories.</p>
+          <ul>
+            <li><strong>Email:</strong> <a href="mailto:quantsonsusketqs84@gmail.com">quantsonsusketqs84@gmail.com</a></li>
+            <li><strong>Phone:</strong> <a href="tel:+233553305454">+233 55 330 5454</a></li>
+            <li><strong>Location:</strong> Kumasi-Adum, Ghana</li>
+            <li><strong>Instagram:</strong> <a href="https://www.instagram.com/emmasusket_interior/" target="_blank" rel="noreferrer">@emmasusket_interior</a></li>
+            <li><strong>Facebook:</strong> <a href="https://www.facebook.com/profile.php?id=100083201113534" target="_blank" rel="noreferrer">emmasusket_interior</a></li>
+          </ul>
+          
+        </div>
+        <form id="contact-form" action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+          <input type="hidden" name="access_key" value="a0b5096b-2075-41ed-8f9b-047b3f36cbde">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell us about your project"></textarea>
+
+          <button type="submit">Send message</button>
+          <p id="contact-feedback" class="feedback"></p>
+        </form>
+      </div>
+      
+    </section>
+  </main>
+
+  <section id="book-consultation" class="section-block">
+    <div class="section-heading">
+      <span>Schedule your design session</span>
+      <h2>Book a Consultation</h2>
+    </div>
+    <form id="consultation-form" action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+      <input type="hidden" name="access_key" value="a0b5096b-2075-41ed-8f9b-047b3f36cbde">
+      <label for="consult-name">Name</label>
+      <input type="text" id="consult-name" name="name" placeholder="Your full name" required />
+
+      <label for="consult-email">Email</label>
+      <input type="email" id="consult-email" name="email" placeholder="you@example.com" required />
+
+      <label for="consult-phone">Phone</label>
+      <input type="tel" id="consult-phone" name="phone" placeholder="+233 XXX XXX XXX" />
+
+      <label for="consult-date">Preferred Date</label>
+      <input type="date" id="consult-date" name="date" required />
+
+      <label for="consult-service">Service Type</label>
+      <select id="consult-service" name="service" required>
+        <option value="">Select a service</option>
+        <option value="full-home">Full Home Interiors</option>
+        <option value="accessory-styling">Accessory Styling</option>
+        <option value="project-consulting">Project Consulting</option>
+        <option value="bespoke-furnishings">Bespoke Furnishings</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="consult-message">Message</label>
+      <textarea id="consult-message" name="message" rows="5" placeholder="Tell us about your project or any specific requirements"></textarea>
+
+      <button type="submit">Book Consultation</button>
+      <p id="consultation-feedback" class="feedback"></p>
+    </form>
+  </section>
+
+  <footer class="site-footer">
+    <p>© 2026 Emma Susket Ventures. Interior design and luxury accessories.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

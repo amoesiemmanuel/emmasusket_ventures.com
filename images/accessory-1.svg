@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 625" preserveAspectRatio="xMidYMid slice">
+  <rect width="1000" height="625" fill="#181b24" />
+  <rect x="70" y="80" width="860" height="465" rx="40" fill="#d9a06b" opacity="0.18" />
+  <circle cx="320" cy="280" r="100" fill="#f8f7f6" opacity="0.14" />
+  <circle cx="660" cy="310" r="80" fill="#fff" opacity="0.1" />
+  <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" fill="#f8f7f6" font-family="Inter, sans-serif" font-size="48">Accessory Image</text>
+</svg>
