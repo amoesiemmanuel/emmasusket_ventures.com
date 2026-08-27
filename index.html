@@ -55,6 +55,14 @@
         <span>Signature spaces</span>
         <h2>Portfolio highlights</h2>
       </div>
+      <div class="portfolio-controls">
+        <div class="filters" id="portfolio-filters">
+          <button data-filter="all" class="active">All</button>
+          <button data-filter="residential">Residential</button>
+          <button data-filter="commercial">Commercial</button>
+          <button data-filter="hospitality">Hospitality</button>
+        </div>
+      </div>
       <div class="portfolio-grid" id="portfolio-grid"></div>
     </section>
 
@@ -142,7 +150,18 @@
   <footer class="site-footer">
     <p>© 2026 Emma Susket Ventures. Interior design and luxury accessories.</p>
   </footer>
+  
 
   <script src="script.js"></script>
+  <!-- Project modal -->
+  <div id="project-modal" class="project-modal" aria-hidden="true">
+    <div class="modal-backdrop" id="modal-backdrop"></div>
+    <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button id="modal-close" class="modal-close" aria-label="Close">✕</button>
+      <div class="modal-body" id="modal-body">
+        <!-- Filled by JS -->
+      </div>
+    </div>
+  </div>
 </body>
 </html>
