@@ -27,7 +27,7 @@ const services = [
   {
     title: "Bespoke Furnishings",
     description: "Tailor-made pieces designed to fit your lifestyle, layout, and decorative vision.",
-    image: "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1000&q=80",
+    image: "images/bespoke-furnishings.jpg",
     alt: "Custom furniture in a stylish modern interior",
   },
 ];
